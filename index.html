@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- css starts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/index.css">
+  <title>Hello, world!</title>
+</head>
+
+<body onload="loading()" >
+  <div id="loader">
+  </div>
+  
+  <!-- header starts -->
+  <header>
+    <div class="container-fluid">
+      <div class="row justify-content-md-end">
+        <div
+          class="col-lg-3 offset-3 offset-sm-3 offset-lg-0 col-8 col-sm-8 order-lg-2 d-flex justify-content-end align-items-center">
+          <a href="#">
+            <div class="contact  d-flex flex-column ">
+              <span><b>+977 9851035823</b></span>
+              <span>Viber and WhatsApp
+                <input type="text" placeholder="Trip Search.." id="mysearch">
+              </span>
+
+            </div>
+          </a>
+          <div class="search">
+            <div id="icon" class="h-100 ">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+        </div>
+        <div class=" order-lg-1 offset-0 col-lg-7 col-1">
+          <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto ">
+                <li id="btn1"><a class="effect" href="#">Nepal <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                  <div class="dropdown" id="dropdown1">
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#" id="list1"><i class="fas fa-circle"></i>Nepal Tour Package<i
+                            class="fas fa-chevron-right"></i>
+                          <ul class="sublist1">
+                            <li><i class="fas fa-circle"></i>Annapura Trekking</li>
+                            <li><i class="fas fa-circle"></i>Langtang Trekking</li>
+                            <li><i class="fas fa-circle"></i>Dhaulagiri Trekking</li>
+                            <li><i class="fas fa-circle"></i>Dolpo Trekking</li>
+                            <li><i class="fas fa-circle"></i>Manaslu Trekking</li>
+                            <li><i class="fas fa-circle"></i>Makalu Trekking</li>
+                          </ul>
+                        </a></li>
+                      <li><a class="dropdown-item" href="#" id="list2"><i class="fas fa-circle"></i>Nepal Tour Package<i
+                            class="fas fa-chevron-right">
+                          </i>
+                          <ul class="sublist2">
+                            <li><i class="fas fa-circle"></i>Annapura Trekking</li>
+                            <li><i class="fas fa-circle"></i>Langtang Trekking</li>
+                            <li><i class="fas fa-circle"></i>Dhaulagiri Trekking</li>
+                            <li><i class="fas fa-circle"></i>Dolpo Trekking</li>
+                            <li><i class="fas fa-circle"></i>Manaslu Trekking</li>
+                            <li><i class="fas fa-circle"></i>Makalu Trekking</li>
+                          </ul>
+                        </a></li>
+                      <li><a class="dropdown-item" href="#" id="list3"><i class="fas fa-circle"></i>Nepal Tour Package<i
+                            class="fas fa-chevron-right">
+                          </i>
+                          <ul class="sublist3">
+                            <li><i class="fas fa-circle"></i>Annapura Trekking</li>
+                            <li><i class="fas fa-circle"></i>Langtang Trekking</li>
+                            <li><i class="fas fa-circle"></i>Dhaulagiri Trekking</li>
+                            <li><i class="fas fa-circle"></i>Dolpo Trekking</li>
+                            <li><i class="fas fa-circle"></i>Manaslu Trekking</li>
+                            <li><i class="fas fa-circle"></i>Makalu Trekking</li>
+                          </ul>
+                        </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                    </ul>
+                  </div>
+
+                </li>
+
+                <li id="btn2">
+                  <a href="#" class="effect">
+                    Tibet<i class="fa fa-chevron-down" aria-hidden="true"></i></i>
+                  </a>
+                  <div class="dropdown" id="dropdown2">
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                    </ul>
+                  </div>
+
+                </li>
+
+                <li id="btn3">
+                  <a href="#" class="effect">
+                    Bhutan<i class="fa fa-chevron-down" aria-hidden="true"></i></i>
+                  </a>
+                  <div class="dropdown" id="dropdown3">
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                    </ul>
+                  </div>
+
+                </li>
+
+                <li id="btn4">
+                  <a href="#" class="effect">
+                    Travel Info<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  </a>
+                  <div class="dropdown" id="dropdown4">
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fas fa-circle"></i>Nepal Tour Package</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li id="btn5">
+                  <a href="#" class="effect">
+                    Company Info<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  </a>
+                  <div class="dropdown" id="dropdown5">
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+
+                </li>
+                <li class="d-flex align-items-center">
+                  <a href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <a href="#">
+        <figure>
+          <img class="img-fluid" src="https://www.nepaltourstravel.com/themes/images/logo.png" alt="logo">
+        </figure>
+      </a>
+    </div>
+    <div class="dropdownmenu collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="container-fluid">
+        <ul>
+            <li class=" d-flex flex-column">
+              <div class="title">
+                <h4>Nepal</h4>
+                <input type="checkbox" class="fas fa-plus-circle" id="packagename1" onclick="check('packagename1','packagelist1')">
+              </div>
+                <ul id="packagelist1" class="packagelist">
+                  <li><a href="#">Nepal Tour Package</a></li>
+                  <li><a href="#">Nepal Tour Package</a></li>
+                  <li><a href="#">Nepal Tour Package</a></li>
+                  <li><a href="#">Nepal Tour Package</a></li>
+                  <li><a href="#">Nepal Tour Package</a></li>
+                  <li><a href="#">Nepal Tour Package</a></li>
+                  <li><a href="#">Nepal Tour Package</a></li>
+                  <li><a href="#">Nepal Tour Package</a></li>
+                  <li><a href="#">Nepal Tour Package</a></li>
+                  <li><a href="#">Nepal Tour Package</a></li>
+                </ul>  
+          
+              </li>
+            <li class=" d-flex flex-column">
+                <div class="title">
+                  <h4>Tibet</h4>
+                  <input type="checkbox" class="fas fa-plus-circle" id="packagename2" onclick="check('packagename2','packagelist2')" >
+                </div>
+                  <ul  id="packagelist2" class="packagelist">
+                    <li><a href="#">Nepal Tour Package</a></li>
+                    <li><a href="#">Nepal Tour Package</a></li>
+                    <li><a href="#">Nepal Tour Package</a></li>
+                    <li><a href="#">Nepal Tour Package</a></li>
+                    <li><a href="#">Nepal Tour Package</a></li>
+                    <li><a href="#">Nepal Tour Package</a></li>
+                    <li><a href="#">Nepal Tour Package</a></li>
+                    <li><a href="#">Nepal Tour Package</a></li>
+                    <li><a href="#">Nepal Tour Package</a></li>
+                    <li><a href="#">Nepal Tour Package</a></li>
+                  </ul>  
+            
+                </li>
+            <li class=" d-flex flex-column">
+                  <div class="title">
+                    <h4>Bhutan</h4>
+                    <input type="checkbox" class="fas fa-plus-circle" id="packagename3" onclick="check('packagename3','packagelist3')">
+                  </div>
+                    <ul  id="packagelist3" class="packagelist">
+                      <li><a href="#">Nepal Tour Package</a></li>
+                      <li><a href="#">Nepal Tour Package</a></li>
+                      <li><a href="#">Nepal Tour Package</a></li>
+                      <li><a href="#">Nepal Tour Package</a></li>
+                      <li><a href="#">Nepal Tour Package</a></li>
+                      <li><a href="#">Nepal Tour Package</a></li>
+                      <li><a href="#">Nepal Tour Package</a></li>
+                      <li><a href="#">Nepal Tour Package</a></li>
+                      <li><a href="#">Nepal Tour Package</a></li>
+                      <li><a href="#">Nepal Tour Package</a></li>
+                    </ul>  
+              
+                  </li>
+            <li class=" d-flex flex-column">
+                    <div class="title">
+                      <h4>Travel Info</h4>
+                      <input type="checkbox" class="fas fa-plus-circle" id="packagename4" onclick="check('packagename4','packagelist4')">
+                    </div>
+                      <ul id="packagelist4" class="packagelist">
+                        <li><a href="#">Nepal Tour Package</a></li>
+                        <li><a href="#">Nepal Tour Package</a></li>
+                        <li><a href="#">Nepal Tour Package</a></li>
+                        <li><a href="#">Nepal Tour Package</a></li>
+                        <li><a href="#">Nepal Tour Package</a></li>
+                        <li><a href="#">Nepal Tour Package</a></li>
+                        <li><a href="#">Nepal Tour Package</a></li>
+                        <li><a href="#">Nepal Tour Package</a></li>
+                        <li><a href="#">Nepal Tour Package</a></li>
+                        <li><a href="#">Nepal Tour Package</a></li>
+                      </ul>  
+                
+                    </li>
+            <li class=" d-flex flex-column">
+                      <div class="title">
+                        <h4>Company Info</h4>
+                        <input type="checkbox" class="fas fa-plus-circle" id="packagename5" onclick="check('packagename5','packagelist5')">
+                      </div>
+                        <ul id="packagelist5" class="packagelist" >
+                          <li><a href="#">Nepal Tour Package</a></li>
+                          <li><a href="#">Nepal Tour Package</a></li>
+                          <li><a href="#">Nepal Tour Package</a></li>
+                          <li><a href="#">Nepal Tour Package</a></li>
+                          <li><a href="#">Nepal Tour Package</a></li>
+                          <li><a href="#">Nepal Tour Package</a></li>
+                          <li><a href="#">Nepal Tour Package</a></li>
+                          <li><a href="#">Nepal Tour Package</a></li>
+                          <li><a href="#">Nepal Tour Package</a></li>
+                          <li><a href="#">Nepal Tour Package</a></li>
+                        </ul>  
+                  
+                      </li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    </div>
+  </header>
+  <!-- carousel starts -->
+  <section class="carousel" onmouseenter="buttonclasseffect1('previousbutton','nextbutton')"
+    onmouseleave="buttonclasseffect2('previousbutton','nextbutton')">
+    <div class="container-fluid">
+      <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <h2>Boudhanath</h2>
+            <img src="https://www.nepaltourstravel.com/uploads/img/boudhanath.jpg" class="w-100 img-fluid" alt="image1">
+          </div>
+          <div class="carousel-item " data-bs-interval="3000">
+            <h2>Pokhara</h2>
+            <img src="https://www.nepaltourstravel.com/uploads/img/pokhara.jpg" class="w-100  img-fluid" alt="image2">
+          </div>
+          <div class="carousel-item " data-bs-interval="3000">
+            <h2>Lumbini</h2>
+            <img src="https://www.nepaltourstravel.com/uploads/img/lumbini.jpg" class="w-100 img-fluid" alt="image3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true" id="previousbutton"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" id="nextbutton"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <aside class="container" onmouseenter="buttonclasseffect2('previousbutton','nextbutton')"
+      onmouseleave="buttonclasseffect1('previousbutton','nextbutton')">
+      <div class=" d-md-flex justify-content-md-between">
+        <div class="select-wrapper"> <select id="Destination">
+            <option>Destinations</option>
+            <option>Nepal</option>
+            <option>Tibet</option>
+            <option>Bhutan</option>
+          </select>
+        </div>
+        <div class="select-wrapper"> <select id="Activities">
+            <option>Activities</option>
+          </select>
+        </div>
+        <div class="select-wrapper"> <select id="Duration">
+            <option>Duration</option>
+            <option>less than 1 day</option>
+            <option>1 day</option>
+            <option>2-7 days</option>
+            <option> 8-15 days></option>
+            <option> 16-20 days></option>
+            <option> 21-30 days></option>
+            <option> More than 30 days</option>
+          </select>
+        </div>
+        <div class="press"><button>Find Your Trip</button></div>
+      </div>
+    </aside>
+    <div class="amaze ">
+      <div class="content" onmouseenter="buttonclasseffect2('previousbutton','nextbutton')"
+        onmouseleave="buttonclasseffect1('previousbutton','nextbutton')">
+        <div class="offer">
+          <p>Amazing Offer Today</p>
+          <p>Nepal Budget Trek Packages</p>
+        </div>
+        <div class="press d-flex align-items-center">
+          <a href="#"></a>
+          <i class="fas fa-chevron-circle-right"></i>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </section>
+  <!-- luxury tour starts -->
+  <section class="tour">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="title d-flex justify-content-between">
+            <h2>Nepal Luxury Tours</h2>
+            <span class="d-flex justify-content-center align-items-center"><a href="#">3 trips</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="row flex-wrap justify-content-center">
+        <div class="col-lg-4 col-md-6">
+
+          <figure>
+            <a href="#">
+              <img class="img-fluid"
+                src="https://www.nepaltourstravel.com/uploads/package/6-days-best-of-nepal-luxury-tour.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+          <div class="content">
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+            <div class="duration">Duration:<b> 6 Days</b></div>
+            <div class="ratings d-flex justify-content-between">
+              <div class="review-ratings">
+                4 reviews
+              </div>
+              <div class="price">
+                <span>price:</span>
+                <b>US$700</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://www.nepaltourstravel.com/uploads/package/8-days-nepal-luxury-tour.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+          <div class="content ">
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+            <div class="duration">Duration:<b> 6 Days</b></div>
+            <div class="ratings d-flex justify-content-between">
+              <div class="review-ratings">
+                4 reviews
+              </div>
+              <div class="price">
+                <span>price:</span>
+                <b>US$700</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://www.nepaltourstravel.com/uploads/package/10-day-nepal-luxury-tour.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+          <div class="content ">
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+            <div class="duration">Duration:<b> 6 Days</b></div>
+            <div class="ratings d-flex justify-content-between">
+              <div class="review-ratings flex-wrap">
+                4 reviews
+              </div>
+              <div class="price">
+                <span>price:</span>
+                <b>US$700</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- recommended starts -->
+  <section class="recommended">
+    <section class="container">
+      <div class="title">
+        <h2>Recommended Trekking</h2>
+      </div>
+
+      <div class="owl-carousel">
+        <div class="content">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://www.nepaltourstravel.com/uploads/category/annapurna-trekking.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+        </div>
+        <div class="content">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://www.nepaltourstravel.com/uploads/category/everest-trekking.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+        </div>
+        <div class="content">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://www.nepaltourstravel.com/uploads/category/langtang-trekking.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+        </div>
+        <div class="content">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="	https://www.nepaltourstravel.com/uploads/category/manaslu-trekking.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+        </div>
+      </div>
+
+    </section>
+  </section>
+  <!-- package starts -->
+  <section class="package">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="title d-flex justify-content-between">
+            <h2>Nepal Luxury Tours</h2>
+            <span class="d-flex justify-content-center align-items-center"><a href="#">3 trips</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="row flex-wrap justify-content-center">
+        <div class="col-lg-4 col-md-6">
+
+          <figure>
+            <a href="#">
+              <img class="img-fluid"
+                src="	https://www.nepaltourstravel.com/uploads/package/5-nights-6-days-nepal-tour.jpg" alt="scenary">
+            </a>
+          </figure>
+          <div class="content">
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+            <div class="duration">Duration:<b> 6 Days</b></div>
+            <div class="ratings d-flex justify-content-between">
+              <div class="review-ratings">
+                4 reviews
+              </div>
+              <div class="price">
+                <span>price:</span>
+                <b>US$700</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure>
+            <a href="#">
+              <img class="img-fluid"
+                src="https://www.nepaltourstravel.com/uploads/package/7-nights-8-days-nepal-tour.jpg" alt="scenary">
+            </a>
+          </figure>
+          <div class="content ">
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+            <div class="duration">Duration:<b> 6 Days</b></div>
+            <div class="ratings d-flex justify-content-between">
+              <div class="review-ratings">
+                4 reviews
+              </div>
+              <div class="price">
+                <span>price:</span>
+                <b>US$700</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure>
+            <a href="#">
+              <img class="img-fluid"
+                src="https://www.nepaltourstravel.com/uploads/package/3-nights-4-days-nepal-tour.jpg" alt="scenary">
+            </a>
+          </figure>
+          <div class="content ">
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+            <div class="duration">Duration:<b> 6 Days</b></div>
+            <div class="ratings d-flex justify-content-between">
+              <div class="review-ratings">
+                4 reviews
+              </div>
+              <div class="price">
+                <span>price:</span>
+                <b>US$700</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row flex-wrap justify-content-center">
+        <div class="col-lg-4 col-md-6">
+
+          <figure>
+            <a href="#">
+              <img class="img-fluid"
+                src="https://www.nepaltourstravel.com/uploads/package/4-nights-5-days-nepal-tour.jpg" alt="scenary">
+            </a>
+          </figure>
+          <div class="content">
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+            <div class="duration">Duration:<b> 6 Days</b></div>
+            <div class="ratings d-flex justify-content-between">
+              <div class="review-ratings">
+                4 reviews
+              </div>
+              <div class="price">
+                <span>price:</span>
+                <b>US$700</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://www.nepaltourstravel.com/uploads/package/buddhist-pilgrimage-tour.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+          <div class="content ">
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+            <div class="duration">Duration:<b> 6 Days</b></div>
+            <div class="ratings d-flex justify-content-between">
+              <div class="review-ratings">
+                4 reviews
+              </div>
+              <div class="price">
+                <span>price:</span>
+                <b>US$700</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://www.nepaltourstravel.com/uploads/package/kathmandu-pokhara-tour.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+          <div class="content ">
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+            <div class="duration">Duration:<b> 6 Days</b></div>
+            <div class="ratings d-flex justify-content-between">
+              <div class="review-ratings">
+                4 reviews
+              </div>
+              <div class="price">
+                <span>price:</span>
+                <b>US$700</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog post starts -->
+  <section class="blogpost">
+    <div class="container">
+      <div class="title">
+        <h2>Latest Blog Post</h2>
+      </div>
+      <div class="row flex-wrap justify-content-center">
+        <div class="col-lg-4 col-md-6">
+
+          <figure>
+            <a href="#">
+              <img class="img-fluid"
+                src="	https://www.nepaltourstravel.com/uploads/blog/nepal-tour-package-itinerary-price-and-cost.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+          <div class="content">
+            <div class="caption">
+              <span>Tour Travel Nepal</span>
+            </div>
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure>
+            <a href="#">
+              <img class="img-fluid"
+                src="	https://www.nepaltourstravel.com/uploads/blog/best-tour-operator-in-kathmandu.jpg" alt="scenary">
+            </a>
+          </figure>
+          <div class="content">
+            <div class="caption">
+              <span>Tour Travel Nepal</span>
+            </div>
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure>
+            <a href="#">
+              <img class="img-fluid"
+                src="	https://www.nepaltourstravel.com/uploads/blog/do-you-need-a-visa-to-travel-to-nepal.jpg"
+                alt="scenary">
+            </a>
+          </figure>
+          <div class="content">
+            <div class="caption">
+              <span>Tour Travel Nepal</span>
+            </div>
+            <h4 class="subtitle"><a href="#"> 6 Days Best of Nepal Luxury Tour</a></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- intro starts -->
+  <section class="intro">
+    <div class="container">
+      <div class="title text-center">
+        <span>Discover with</span>
+        <h1> Welcome Nepal Treks & Tours </h1>
+      </div>
+      <div class="para text-center">
+        <p>Welcome Nepal Travel Tour Company always welcome to any Travel Agency, Tour agencies, Adventure Operator and
+          travel related persons to work jointly in this field.</p>
+      </div>
+      <div id="desc">
+        <div class="content">
+          <h4>Four Strong Reasons to Hire a Best Nepal Tour Company to Make Nepal Tours</h4>
+          <p>Nowadays, a large number of people rely on tour companies to visit different places. There are a large
+            number of benefits associated with hiring services offered by a good Nepal Tour Company depending on a
+            particular place, where you arrange your trip. In general, any good tour provider gives packaged tours to
+            save a huge amount of time in making plans for Nepal trip and make the mandatory reservation and other
+            related arrangements. In fact, hiring of a reliable Nepal Tour Agency or Nepal Travel Agency may give a
+            plenty of benefits to worldwide travelers, which we have mentioned in this blog post.</p>
+        </div>
+        <div class="content">
+          <h4>Four Strong Reasons to Hire a Best Nepal Tour Company to Make Nepal Tours</h4>
+          <p>Nowadays, a large number of people rely on tour companies to visit different places. There are a large
+            number of benefits associated with hiring services offered by a good Nepal Tour Company depending on a
+            particular place, where you arrange your trip. In general, any good tour provider gives packaged tours to
+            save a huge amount of time in making plans for Nepal trip and make the mandatory reservation and other
+            related arrangements. In fact, hiring of a reliable Nepal Tour Agency or Nepal Travel Agency may give a
+            plenty of benefits to worldwide travelers, which we have mentioned in this blog post.</p>
+        </div>
+        <div class="content">
+          <h4>Four Strong Reasons to Hire a Best Nepal Tour Company to Make Nepal Tours</h4>
+          <p>Nowadays, a large number of people rely on tour companies to visit different places. There are a large
+            number of benefits associated with hiring services offered by a good Nepal Tour Company depending on a
+            particular place, where you arrange your trip. In general, any good tour provider gives packaged tours to
+            save a huge amount of time in making plans for Nepal trip and make the mandatory reservation and other
+            related arrangements. In fact, hiring of a reliable Nepal Tour Agency or Nepal Travel Agency may give a
+            plenty of benefits to worldwide travelers, which we have mentioned in this blog post.</p>
+        </div>
+        <div class="content">
+          <h4>Four Strong Reasons to Hire a Best Nepal Tour Company to Make Nepal Tours</h4>
+          <p>Nowadays, a large number of people rely on tour companies to visit different places. There are a large
+            number of benefits associated with hiring services offered by a good Nepal Tour Company depending on a
+            particular place, where you arrange your trip. In general, any good tour provider gives packaged tours to
+            save a huge amount of time in making plans for Nepal trip and make the mandatory reservation and other
+            related arrangements. In fact, hiring of a reliable Nepal Tour Agency or Nepal Travel Agency may give a
+            plenty of benefits to worldwide travelers, which we have mentioned in this blog post.</p>
+        </div>
+      </div>
+      <div class="read text-center"> ReadMore</div>
+
+    </div>
+  </section>
+  <!-- description starts -->
+  <section class="description">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <h4 class="title">
+            Best Selection
+          </h4>
+          <p>
+            Choose from dozens of expert-designed packages or customize your own to create your perfect adventure
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <h4 class="title">
+            Best Price Guarantee
+          </h4>
+          <p>
+            Be assured that you are getting the best deals with no hidden costs or extra fees
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <h4 class="title">
+            Secure Payments
+          </h4>
+          <p>
+            Book your trip with confidence knowing that our online payment system is safe and secure
+        </div>
+        <div class="col-lg-3">
+          <h4 class="title">
+            Book your trip with confidence knowing that our online payment system is safe and secure
+          </h4>
+          <p>
+            We are here for you around the clock, just drop us a line on Viber, WhatsApp, or email us
+          </p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="#">
+          <img class="img-fluid" src="	https://www.nepaltourstravel.com/themes/images/google-review.png" alt="media">
+        </a>
+        <a href="#">
+          <img class="img-fluid" src="https://www.nepaltourstravel.com/themes/images/trip-review.png" alt="media">
+        </a>
+        <a href="#">
+          <img class="img-fluid" src="	https://www.nepaltourstravel.com/themes/images/facebook-review.png" alt="media">
+        </a>
+        <a href="#">
+          <img class="img-fluid" src="	https://www.nepaltourstravel.com/themes/images/trustpilot-review.png"
+            alt="media">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- affiliation starts -->
+  <section class="affiliation">
+    <div class="container">
+      <div class="title text-center">
+        <h4>We're affiliated & Join with:</h4>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 d-flex">
+          <div class="img">
+            <img class="img-fluid"
+              src="	https://www.nepaltourstravel.com/themes/images/svg/associated/nepal-goverment.svg" alt="logo">
+          </div>
+          <div class="text">
+            Registered with: Company Registration Office, Government of Nepal
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 d-flex">
+          <div class="img">
+            <img class="img-fluid" src="https://www.nepaltourstravel.com/themes/images/svg/associated/ntb.svg
+              " alt="logo">
+          </div>
+          <div class="text">
+            Registered with: Company Registration Office, Government of Nepal
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 d-flex">
+          <div class="img">
+            <img class="img-fluid" src="https://www.nepaltourstravel.com/themes/images/svg/associated/taan.svg"
+              alt="logo">
+          </div>
+          <div class="text">
+            Registered with: Company Registration Office, Government of Nepal
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 d-flex">
+          <div class="img">
+            <img class="img-fluid" src="	https://www.nepaltourstravel.com/themes/images/svg/associated/nma.svg"
+              alt="logo">
+          </div>
+          <div class="text">
+            Registered with: Company Registration Office, Government of Nepal
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer starts -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 ">
+          <div class="info">
+            <h4>Call Us</h4>
+            <p><a href="#">+977 9851035823</a></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 ">
+          <div class="info">
+            <h4>Email for us</h4>
+            <p><a href="#">welcomenepaltreks@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6  ">
+
+          <div class="info">
+            <h4>Follow us</h4>
+            <div class="icons">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Nepal Budget Trek</a></li>
+            <li><a href="#">Read Reviews</a></li>
+            <li><a href="#">Payment and Booking</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Nepal Budget Trek</a></li>
+            <li><a href="#">Read Reviews</a></li>
+            <li><a href="#">Payment and Booking</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Nepal Budget Trek</a></li>
+            <li><a href="#">Read Reviews</a></li>
+            <li><a href="#">Payment and Booking</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Nepal Budget Trek</a></li>
+            <li><a href="#">Read Reviews</a></li>
+            <li><a href="#">Payment and Booking</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="onlinepayment d-flex">
+            <span>Secure Payment</span>
+            <div class="medium">
+              <a href="#"><img class="img-fluid"
+                  src="	https://www.nepaltourstravel.com/themes/images/svg/payment/visa.svg" alt="payment"></a>
+              <a href="#"><img class="img-fluid"
+                  src="	https://www.nepaltourstravel.com/themes/images/svg/payment/amex.svg" alt="payment"></a>
+              <a href="#"><img class="img-fluid"
+                  src="		https://www.nepaltourstravel.com/themes/images/svg/payment/mastercard.svg" alt="payment"></a>
+              <a href="#"><img class="img-fluid"
+                  src="	https://www.nepaltourstravel.com/themes/images/svg/payment/unionpay.svg" alt="payment"></a>
+            </div>
+          </div>
+          <div class="copyright"> © 2022, Welcome Nepal Treks and Tours Pvt. Ltd.&nbsp;&nbsp;|&nbsp;&nbsp; All Rights
+            Reserved <a href="#" class="subs">Subscribe to Newsletter </a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <!-- gototop button -->
+    <a href="#">
+      <div class="goTop">
+        <i class="fas fa-arrow-up"></i>
+      </div>
+    </a>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/js/index.js"></script>
+</body>
+
+</html>
